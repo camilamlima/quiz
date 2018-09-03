@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz Reprograma</title>
+<link href ="css/style.css" rel ="stylesheet">
+<script src = "js/form.js"></script>
+
+</head>
+
+<body>
+<h1>Teste seus conhecimentos</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+<p class = "questions">1. O que significa a sigla HTML?</p>
+<input type = "radio" id = "question" name = "question1" value = "A. Hyperlinks and Text Markup Language">A. Hyperlinks and Text Markup Language<br>
+<input type = "radio" id = "question" name = "question1" value = "B. Hyper Text Markup Language">B. Hyper Text Markup Language<br>
+<input type = "radio" id = "question" name = "question1" value = "C. Home Tool Markup Language">C. Home Tool Markup Language<br>
+
+<p class = "questions">2. O que significa a sigla CSS?</p>
+
+<input type = "radio" id = "question" name = "question2" value = "A. Creative Style Sheets">A. Creative Style Sheets<br>
+<input type = "radio" id = "question" name = "question2" value = "B. Cascading Style Sheets">B. Cascading Style Sheets<br>
+<input type = "radio" id = "question" name = "question2" value = "C. Colorful Style Sheets">C. Colorful Style Sheets<br>
+
+<p class = "questions">3. Dentro de qual elemento HTML nós colocamos o JavaScript?</p>
+
+<input type = "radio" id = "question" name = "question3" value = "A. script">A. script<br>
+<input type = "radio" id = "question" name = "question3" value = "B. js">B. js<br>
+<input type = "radio" id = "question" name = "question3" value = "C. javascript">C. javascript<br>
+
+
+<input id = "button" type = "button" value = Concluído onclick="validacao()">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "pontuacao"></p>
+<p id = "message"></p>
+<img id = "image">
+</div>
+</html>
+
+</body>
